@@ -1,0 +1,16 @@
+# Aliases
+alias reload="exec zsh"
+alias config="vim ~/.zshrc"
+alias plugins="vim ~/.zsh_plugins.txt"
+
+# Git shortcuts (if you don't already have)
+alias gs='git status'
+alias gp='git push'
+alias gc='git commit'
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# ls variations (if you like color/formatting)
+alias ll='ls -lah'
